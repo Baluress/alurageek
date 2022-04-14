@@ -1,0 +1,376 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+.caixa {
+    position: static;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-content: center;
+    margin: 30px auto 30px 50px;
+}
+
+.barra-de-pesquisa{
+    position: relative;
+    right:150px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 393px;
+    height: 40px;
+    align-self: center;
+}
+
+.busca-txt {
+    border: none;
+    background: none;
+    outline: none;
+    width: 159px;
+    height: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+::placeholder {
+    color:#A2A2A2;
+}
+
+.botao-login {
+    width: 182px;
+    height: 51px;
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    background: none;
+    color:#2A7AE4;
+    cursor: pointer;
+    margin-right: 20px;
+    position: relative;
+    left: 18px;
+}
+
+.botao-login:hover {
+    background: #D4E4FA;
+}
+
+.lupa-busca {
+    border: none;
+    background: none;
+    width:17px;
+    height: 17px;
+    margin-left: 170px;
+}
+
+.container-banner{
+    width: 1440px;
+    height: 352px;
+    background: url("banner.png");
+}
+
+.texto-banner {
+    position: absolute;
+    top: 240px;
+    left: 165px;
+}
+
+.texto-banner h2 {
+    color: #FFFFFF;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 52px;
+    line-height: 20px;
+}
+
+.texto-banner p {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 22px;
+}
+
+.botao-console {
+    color: #FFFFFF;
+    width: 130px;
+    height: 51px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    background: #2A7AE4;
+}
+
+.botao-console:hover {
+    background:#5595E9;;
+}
+
+.star-wars {
+    margin-top: 36px;
+}
+
+.galeria-consoles {
+    margin-top: 36px;
+}
+
+.galeria-diversos {
+    margin-top: 36px;
+}
+
+.galeria-starwars {
+    margin-left:112px;
+    margin-top: 0;
+}
+
+.galeria-starwars a {
+    text-decoration: none;
+}
+
+.galeria-starwars li {
+    display: inline-block;
+    padding-right: 16px;
+}
+
+.titulo-e-ver-produto-star {
+    display: flex;
+    justify-content: space-around;
+    gap: 560px;
+}
+
+.link-ver-tudo-star {
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    position: relative;
+    left: 50px;
+}
+
+.titulo-e-ver-produto-consoles {
+    display: flex;
+    justify-content: space-around;
+    gap: 900px;
+}
+
+.link-ver-tudo-consoles {
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    position: relative;
+    right: 62px;
+}
+
+.titulo-e-ver-produto-diversos {
+    display: flex;
+    justify-content: space-around;
+    gap: 900px;
+}
+
+.link-ver-tudo-diversos {
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    align-self: center;
+    position: relative;
+    right: 62px;
+}
+
+.galeria-consoles {
+    margin-left:112px;
+    margin-top: 0;
+}
+
+.galeria-consoles li {
+    display: inline-block;
+    padding-right: 16px;
+}
+
+.galeria-diversos {
+    margin-left:112px;
+    margin-top: 0;
+}
+
+.galeria-diversos li {
+    display: inline-block;
+    padding-right: 16px;
+}
+
+.titulo-sessao {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+}
+
+.nome-produto {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.preco-produto {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.parte-link-produto {
+    color: #2A7AE4;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.rodape {
+    width: 1440px;;
+    height: 364px;
+    background: #EAF2FD;
+    margin-top: 50px;
+}
+
+.itens-rodape {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 44px;
+}
+
+.logo-footer {
+    position: relative;
+    bottom: 90px;
+}
+
+.lista-footer {
+    list-style: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: #464646;
+    margin-top: 30px;
+    padding: 5px;
+}
+
+.fale-conosco {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+}
+
+.fale-conosco h3 {
+    color: #464646;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    margin-left:8px;
+}
+
+.fale-conosco label {
+    color: #A2A2A2; 
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 16px;
+    margin-left: 18px ;
+}
+
+.input-padrao {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #464646;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 5px ;
+    margin-left: 16px;
+    border-bottom: 1px solid #C8C8C8;
+}
+
+.caixa-texto {
+    color: #A2A2A2;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    border: none;
+    position: relative;
+    top: 34px;
+    margin-left: 16px;
+    border-bottom: 1px solid #C8C8C8;
+    width: 560px;
+    height: 82px;
+}
+
+.enviar {
+    width: 165px;
+    height: 51px;
+    padding: 16px;
+    border: 1px solid #2A7AE4;
+    box-sizing: border-box;
+    background: #2A7AE4;
+    color: #FFFFFF;
+    cursor: pointer;
+    position: relative;
+    top: 44px;
+    margin-left: 16px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+.enviar:hover {
+    background: #5595E9;
+}
+
+.desenvolvedor {
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    text-align: center;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    width: 1440px;
+    height: 102px;
+    margin-top: 80px;
+    }

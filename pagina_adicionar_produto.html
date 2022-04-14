@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="utf-8">
+
+    <title>Página - adicionar produtos</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="caixa">
+            <a href="index.html"><img src="Logo.png" alt="Imagem de um controle de video game"></a>
+            
+             <div class="barra-de-pesquisa">
+                <input type="text" id="busca-cabecalho" class="busca-txt" placeholder="O que deseja encontrar?">    
+                <button class="lupa-busca"><img src="lupa-busca.png"></button>  
+            </div>
+             
+            
+            <a href="pagina_todos_produtos.html"> <button type="button" id="btn-administrador" class="botao-administrador">Menu administrador</button> </a>
+        
+        </div>
+    </header>   
+    
+    <main>
+        <section class="adicionar-produto">
+        <h2>Adicionar novo produto</h2>
+
+        <div class="forma-adicionar-img"> 
+            <ul class="arrastar-img">
+                <img src="vetor_adc_img.png" alt="icone imagem">
+                <p>Arraste para adicionar uma imagem para o produto</p>
+            </ul>
+
+            <p class="ou">Ou</p>
+
+            <button type="button" id="btn-procura-pc" class="procura-pc">Procure no seu computador</button>
+        </div>
+        </section>
+
+        <form class="informacoes-produto">
+            <label for="nome-produto" class="label-produto">Nome do produto</label>
+            <input type="text" id="nome-produto" class="nome-produto-inserido" placeholder="Produto XYZ" required>
+            <label for="preco-produto" class="label-produto">Preço do produto</label>
+            <input type="text" id="preco-produto" class="preco-produto-inserido" placeholder="R$ 60,00" required>
+            <placelabel for="mensagem" class="label-descricao">Descrição do produto</placelabel>
+            <textarea cols="70" rows="6" id="mensagem" class="descricao-produto-inserido"></textarea>
+            <button type="button" id="btn-add-produto" class="botao-add-produto">Adicionar produto</button>
+
+        </form>
+
+
+    </main>
+
+
+    <footer class="rodape">
+        <div class="itens-rodape">
+            <img src="Logo.png" alt="imagem do logo" class="logo-footer">
+
+            <ul class="lista-footer">
+                <li><p>Quem somos nós</p></li>
+                <li><p>Política de privacidade</p></li>
+                <li><p>Programa fidelidade</p></li>
+                <li><p>Nossas lojas</p></li>
+                <li><p>Quero ser franqueado</p></li>
+                <li><p>Anuncie aqui</p></li>
+            </ul>
+
+            <form class="fale-conosco">
+                <h3>Fale conosco</h3>
+                <label for="nome">Nome</label>
+                <input type="text" id="nome" class="input-padrao" required placeholder="Insira seu nome">
+                <textarea cols="70" rows="6" id="mensagem" class="caixa-texto" placeholder="Escreva sua mensagem" required></textarea>
+                <input type="submit" value="Enviar mensagem" class="enviar">
+            </form>
+        </div>
+
+        <div class="desenvolvedor">
+            <p>Desenvolvido por Paulo Vicente<br>2022</p>
+        </div>
+    </footer>
+
+</body>
+</html>
